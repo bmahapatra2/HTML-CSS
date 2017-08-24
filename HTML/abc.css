@@ -1,8 +1,8 @@
 		body
 		{
-				background-color: white;
-				border-color: black ;
-				border: 2px solid black;
+			background-color: white;
+			border-color: black ;
+			border: 2px solid black;
 		}
 		
 		img
@@ -43,6 +43,8 @@
 		{
 			padding-left: 10px; 
 		}
+
+
 		.contact span
 		{
 			font-weight: bold;
@@ -50,6 +52,8 @@
 			font-family:verdana;
 			display: block;
 			padding-right: 10px; 
+			width: "30%"
+
 		}
 
 		hr
@@ -110,6 +114,7 @@
 		{
 
 			font-size: 18px;
+			 text-indent: 50px;
 			
 		}
 
@@ -123,3 +128,23 @@
 			border-top:  5px solid black;
 			padding-top: 35px;
 		}
+		.flex-container
+		{
+		    
+    		display: flex;
+   			flex-direction: row;
+    		justify-content: space-between;
+    		width: 1325px;
+    		height: 250px;
+    		background-color: lightgrey;
+    		align-items: center;
+		}
+
+		.flex-item {
+    		background-color: cornflowerblue;
+			width: 800px;
+			height: 800px;
+    		margin: 10px;	
+		}
+
+		
