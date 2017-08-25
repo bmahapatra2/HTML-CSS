@@ -3,21 +3,22 @@
 <head>
 <meta charset="utf-8" lang="en-US">
   <link rel="stylesheet" type="text/css" href="style.css">    
-
+  <script src="tiktactoe.js"></script>
 
 </head>
-<body>
-<h1>TIC-TAC-TOE</h1>
+<body onload="startGame();">>
+  <h1>TIC-TAC-TOE</h1>
       <div id="main">
-               <div class="colorblock"> A</div>
-               <div class="colorblock" id="1"> A</div>
-               <div class="colorblock" id="2"> A</div>
-               <div class="colorblock" id="3"> A</div>
-               <div class="colorblock" id="4"> A</div>
-               <div class="colorblock" id="5"> A</div>
-               <div class="colorblock" id="6"> A</div>
-               <div class="colorblock" id="7"> A</div>
-               <div class="colorblock" id="8"> A</div>
+               <div class="colorblock" id="1" onClick="nextMove(this);"> </div>
+               <div class="colorblock" id="2" onClick="nextMove(this);"> </div>
+               <div class="colorblock" id="3" onClick="nextMove(this);"> </div>
+               <div class="colorblock" id="4" onClick="nextMove(this);"> </div>
+               <div class="colorblock" id="5" onClick="nextMove(this);"> </div>
+               <div class="colorblock" id="6" onClick="nextMove(this);"> </div>
+               <div class="colorblock" id="7" onClick="nextMove(this);"> </div>
+               <div class="colorblock" id="8" onClick="nextMove(this);"> </div>
+               <div class="colorblock" id="9" onClick="nextMove(this);"> </div>
+               <div id="reset"> <a href="javascript:startGame();"><button type="button">Reset</a></button>
         </div>
 
 </body>
