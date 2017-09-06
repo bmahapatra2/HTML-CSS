@@ -1,0 +1,150 @@
+		body
+		{
+			background-color: white;
+			border-color: black ;
+			border: 2px solid black;
+		}
+		
+		img
+		{
+			float: left;
+			width:304px;
+			margin-left: 10px;
+
+		}
+
+		
+		strong
+		{
+			font-size: 25px;
+			color: #00008B;
+			text-shadow: 1px 1px #008080;
+			margin-left: 5px;
+			font-family: verdana;
+
+
+		}
+
+		h1
+		{
+			color: blue;
+			text-align: center;
+			font-size: 50px;
+			font-family: helvetica;	
+		}
+
+		a.hover
+		{
+			text-align:  right;
+			color: red;
+		}
+
+		p
+		{
+			padding-left: 10px; 
+		}
+
+
+		.contact span
+		{
+			font-weight: bold;
+			text-align: right;
+			font-family:verdana;
+			display: block;
+			padding-right: 10px; 
+			width: "30%"
+
+		}
+
+		hr
+		{
+			padding: 5px;
+			border: 2px;
+			border-color: black;
+			border-width: 10px;
+    		background: teal;
+    		display: block;
+		}
+
+		tr,td,th
+		{
+			border: 1px solid black;
+			padding: 5px;
+			width:20%;
+		}
+
+		table
+		{
+			width: 100%;
+			border: 1px solid black;
+			margin-bottom: 30px;
+			box-shadow: -5px 3px 5px #333;
+			
+		}
+
+		.Signature
+		{
+			font-size: 20px;
+			display: inline-block;
+			float : right;
+			margin-right: 90px;
+		}
+
+		.Date
+		{
+			font-size: 20px;
+			display: inline-block;
+			text-align : left;
+			margin-left: 8px;
+		}
+
+		#declaration
+		{
+			border-top-width: 620px;
+		}
+
+		.date-time-wrapper
+		{
+			border-bottom: 10px;
+			border-color: blue;
+		}
+
+
+		#custom-text-size
+		{
+
+			font-size: 18px;
+			 text-indent: 50px;
+			
+		}
+
+		.table-heads{
+			background-color: #66a3ff;
+		}
+		
+		.Objective
+		{
+			
+			border-top:  5px solid black;
+			padding-top: 35px;
+		}
+		.flex-container
+		{
+		    
+    		display: flex;
+   			flex-direction: row;
+    		justify-content: space-between;
+    		width: 1325px;
+    		height: 250px;
+    		background-color: lightgrey;
+    		align-items: center;
+		}
+
+		.flex-item {
+    		background-color: cornflowerblue;
+			width: 800px;
+			height: 800px;
+    		margin: 10px;	
+		}
+
+		
