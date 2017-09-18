@@ -1,0 +1,151 @@
+	<!DOCTYPE html>
+	<html>
+	<head>
+		<link rel= "stylesheet" type="text/css" href="style.css">
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		
+		
+		<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+		<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+		<script src="expedia.js "></script>
+		
+		<title>Expedia.co.in</title>
+	</head>
+	<body>
+		<div class="parent-container">
+			<div id="logo">
+				<img id="image" src="download.jpg" style="margin-left: 5px;" alt="Expedia">
+			</div>
+			<div id="bell-icon">
+				<img id="bell" src= "bell-musical-tool.png" alt="icon"> 
+				<select name="Login"  style="margin-left: 10px;">
+					<option value="Account">Account</option>
+					<option value="1">SignUp</option>
+					<option value="2">SignIn</option>
+				</select>
+				<select name="Signup" >
+					<option value="ManageTrip">ManageTrip</option>
+					<option value="1">Domestic</option>
+					<option value="2">International</option>
+				</select>
+				<select name="Support" style="margin-right: 20px">
+					<option value="Support">Support</option>
+					<option value="1">Customer Support</option>
+					<option value="2">Feedback</option>
+				</select>
+			</div>
+		</div>
+		<div class="horizontal-list">
+					<ul>
+						<li><a href="#home">Home</a></li>
+						<li><a href="#flight">Flights</a></li>
+						<li><a href="#discover">Discover</a></li>
+						<li><a href="#deal">Deal</a></li>
+						<li><a href="#travelBlog">Travel Blog</a></li>
+						<li><a href="#rewards">Rewards</a></li>
+						<li><a href="#about">About</a></li>
+						<li><a href="#contact">Contact</a></li>
+					</ul>
+		</div>
+		<div id="content">
+				<div id="image-icon">
+					<button id="btnflight" onclick="navigate(this)" type="button"><img id= "hotel" src="images.png" alt="flight"></button>	
+					<button id="btnhotel" onclick="navigate(this)" type="button"><img id= "hotel" src="hotel.jpg" alt="hotel"></button>
+					<button id="btnholiday" onclick="navigate(this)" type="button"><img id= "hotel" src="holiday.jpg" alt="holiday"></button>
+					<button id="btndiscover" onclick="navigate(this)" type="button"><img id= "hotel" src="discover.jpg" alt="discover"></button>
+				</div>
+
+
+			<div id="flightset" class="service-form-container">
+				<form >
+								<fieldset>
+
+									<div id="tabs"> 
+										<ul>
+											<li><a href="#tabs-1">One-Way</a></li>
+											<li><a href="#tabs-2">Two-Way</a></li>
+										</ul>
+										<div id="tabs-1">
+											<div id="options">
+											<br>
+												Flight-From:
+												<input id="flight1" type="text" name="Flight From" style="border:2px solid black; font-size: 18px;" placeholder="From" >
+												Flight-To:
+												<input id="flight2" type="text" name="Flight-To" style="border:2px solid black; margin-right:70px; font-size: 18px;"  placeholder="Destination">
+												<br>
+												<br>
+												Departing:
+												<input type="date" name="Traveldate" style="border:2px solid black; margin-right:65px; font-size: 18px;">
+											</div>
+											<div id="claus"><br>
+											Adult<select name="Adults"  style="border:2px solid black; margin-left:25px; font-size: 18px; margin-right: 15px;">
+												<option value="Adults">Adults</option>
+												<option value="1">1</option>
+												<option value="2">2</option>
+												<option value="3+">3+</option>
+											</select>
+											Children<select name="children"  style="border:2px solid black; margin-left:25px; font-size: 18px; ">
+													<option value="children">Children</option>
+													<option value="1" onselect ="appendText()">1</option>
+													<option value="2">2</option>
+													<option value="3+">3+</option>
+											</select><br>
+											</div>
+										</div>
+										<div id="tabs-2">
+											<div id="options">
+												<br>
+
+													Flight-From:
+													<input id="flight3" type="text" name="Flight From" style="border:2px solid black; font-size: 18px;" placeholder="From" >
+													Flight-To:
+													<input id="flight4" type="text" name="Flight-To" style="border:2px solid black; margin-right:70px; font-size: 18px;"  placeholder="Destination">
+													<br>
+													<br>
+													Departing:
+													<input type="date" name="Traveldate" style="border:2px solid black; margin-right:65px; font-size: 18px;">
+
+													Returning:	
+													<input type="date" name="Traveldate" style="border:2px solid black;  margin-right:70px ;font-size: 18px;" >
+													
+													<div id="claus"><br>
+															Adult<select name="Adults"  style="border:2px solid black; margin-left:25px; font-size: 18px; margin-right: 15px;">
+																<option value="Adults">Adults</option>
+																<option value="1">1</option>
+																<option value="2">2</option>
+																<option value="3+">3+</option>
+																	</select>
+															Children<select name="children"  style="border:2px solid black; margin-left:25px; font-size: 18px; ">
+																			<option value="children">Children</option>
+																			<option value="1" >1</option>
+																			<option value="2">2</option>
+																			<option value="3+">3+</option>
+																	</select>
+																		<br>
+													</div>
+											</div>
+										</div>
+										<input class="submit" type="button" value="Search" >		
+									</div>
+								</fieldset>
+				</form>
+			<div>
+			<div Id="hoteldata" class="service-form-container">
+					<p>
+					asdnflhvfddfx kjgrtvndhbvgthfkvbkshjgdrjhjfvitbetkid dbhxvyusbkdjzvrtnsm gft yjnr zkdvjxnstr hkjdhnv gdkfnnxvge gd<p>
+				
+			</div>
+			<div id="holidaydata" class="service-form-container">
+				<form >
+					<p> baby</p>
+				</form>
+			</div>
+			<div id="discoverdata" class="service-form-container">
+				<form >
+					<p>momo</p>
+				</form>
+			</div>
+		</div>
+</body>
+</html>
